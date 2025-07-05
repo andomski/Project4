@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li>Search</li>
+                <li>Inbox</li>
+                <li>Today</li>
+                <li>Upcoming Tasks</li>
+                <li>Group Tasks</li>
+            </ul>
+        </div>
+
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+
+        <div class="main-content">
+            <h1 id="page-title">TODO List</h1>
+
+            <div class="add-task-btn">
+                <input type="text" id="new-task-input" placeholder="Add your new task..." />
+                <button id="add-task-btn"> + </button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
